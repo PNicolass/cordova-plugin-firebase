@@ -6,6 +6,14 @@ Build for Phonegap
 Fork by Pliciweb Solutions - http://www.pliciweb.com
 
 ## Installation
+
+Ce plugin nécessite dans le config.xml (Phonegap Cli 9.0.0):
+```
+<preference name="phonegap-version" value="cli-9.0.0" />
+<preference name="android-targetSdkVersion" value="28" />
+```
+
+
 Install the plugin by adding it your project's config.xml:
 ```
 <plugin name="cordova-plugin-firebase" spec="https://github.com/Pliciweb/cordova-plugin-firebase.git">
